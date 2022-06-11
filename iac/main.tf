@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "digitalocean" {
-  token = var.do_token
+  token = "dop_v1_ee1ddbcb93515d6f4356d0599b907c93abc707bdce59e93c0685507c4d3f226b"
 }
 
 resource "digitalocean_kubernetes_cluster" "k8s_iniciativa" {
